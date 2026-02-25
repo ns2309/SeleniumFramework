@@ -20,6 +20,7 @@ The framework focuses on maintainability, modular design, and test reliability.
 ---
 
 ## 📂 Project Structure
+
 PythonSeleniumProject1/
 │
 ├── pageobjects/ # Page classes (POM design)
