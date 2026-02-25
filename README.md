@@ -23,12 +23,19 @@ The framework focuses on maintainability, modular design, and test reliability.
 
 PythonSeleniumProject1/
 │
+
 ├── pageobjects/ # Page classes (POM design)
+
 ├── pytestDemo/ # Test cases
+
 ├── utils/ # Browser utilities & reusable functions
+
 ├── data/ # JSON test data
+
 ├── assets/ # Static resources
+
 ├── .gitignore
+
 └── README.md
 
 ---
