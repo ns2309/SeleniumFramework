@@ -1,4 +1,8 @@
-Python | Selenium | PyTest | Automation
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![PyTest](https://img.shields.io/badge/PyTest-Test%20Framework-yellow)
+![Automation](https://img.shields.io/badge/UI%20Automation-Selenium-orange)
+![Framework](https://img.shields.io/badge/Framework-POM%20Design-purple)
 # Selenium Automation Framework (Python + PyTest)
 
 ## 🔥 Overview
