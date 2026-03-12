@@ -79,9 +79,14 @@ On test failure:
 - Screenshot is captured automatically
 - HTML report is generated
 - Logs help identify root cause quickly
-<img width="1190" height="1194" alt="Selenium_report" src="https://github.com/user-attachments/assets/fe12fdda-5189-4a20-959c-368704f59c9b" />
----
+  
+--- 
 
+## Failure Handling Demo
+This example intentionally includes one failed test case to demonstrate screenshot capture and HTML reporting for debugging and analysis.
+<img width="1190" height="1194" alt="Selenium_report" src="https://github.com/user-attachments/assets/fe12fdda-5189-4a20-959c-368704f59c9b" />
+
+---
 ## 🎯 Design Approach
 
 This framework follows:
