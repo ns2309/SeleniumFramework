@@ -1,3 +1,4 @@
+Python | Selenium | PyTest | Automation
 # Selenium Automation Framework (Python + PyTest)
 
 ## 🔥 Overview
