@@ -1,6 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
 ![PyTest](https://img.shields.io/badge/PyTest-Test%20Framework-yellow)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red)
 ![Automation](https://img.shields.io/badge/UI%20Automation-Selenium-orange)
 ![Framework](https://img.shields.io/badge/Framework-POM%20Design-purple)
 # Selenium Automation Framework (Python + PyTest)
@@ -73,6 +74,23 @@ pytest --html=report.html --self-contained-html
 
 ---
 
+## CI/CD Integration (Jenkins)
+
+This automation framework is integrated with Jenkins for continuous test execution.
+
+Pipeline workflow:
+
+1. Jenkins pulls the latest automation code from GitHub
+2. Creates a virtual environment
+3. Installs dependencies from requirements.txt
+4. Executes PyTest test suite
+5. Generates HTML test reports
+6. Captures screenshots automatically for failed test cases
+
+Jenkins execution command:
+..\ .venv\Scripts\python.exe -m pytest -v --browser_name chrome --html=reports/report.html
+
+---
 ## 📸 Failure Handling
 
 On test failure:
@@ -100,10 +118,8 @@ This framework follows:
 
 ## 📌 Future Improvements
 
-- CI/CD integration (GitHub Actions)
 - Docker execution support
 - Allure reporting
-- Parallel execution with pytest-xdist
 
 ---
 
